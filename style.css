@@ -1,0 +1,27 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.page-banner {
+  margin: 0%;
+  background-color: maroon;
+  font-family: "Courier New", Courier, monospace;
+  color: orange;
+  text-align: center;
+}
+
+.page-banner a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.page-banner a:hover {
+  background: #ddd;
+  color: black;
+}
