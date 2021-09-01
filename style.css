@@ -1,7 +1,12 @@
+body {
+  margin: 0%;
+}
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 125px;
 }
 
 .page-banner {
@@ -22,6 +27,9 @@
 }
 
 .page-banner a:hover {
-  background: #ddd;
-  color: black;
+  background: rgba(255, 166, 0, 0.514);
+}
+
+.contact {
+  margin-top: 150px;
 }
