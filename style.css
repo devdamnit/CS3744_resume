@@ -2,18 +2,27 @@
   --banner-size: 8em;
 }
 
+/*removes the white space and applies a background color*/
+body {
+  margin: 0%;
+  background-color: rgb(235, 222, 204);
+}
+
+/*applies top padding to each section so navigation does not overlap*/
 section {
   padding-top: var(--banner-size);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.sticky {
+/*makes a sticky banner*/
+#header {
   padding: 0%;
   position: fixed;
   width: 100%;
 }
 
-.page-banner {
+/*configures the page banner content (border, fonts, background, and alignment)*/
+#page-banner {
   max-height: var(--banner-size);
   background-color: maroon;
   font-family: "Courier New", Courier, monospace;
@@ -21,8 +30,13 @@ section {
   color: orange;
   text-align: center;
   top: 0%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: orange;
+  border-radius: 10px;
 }
 
+/*configures anchor tag in page banner to make it different than normal text*/
 .page-banner a {
   display: inline-block;
   color: white;
@@ -31,18 +45,36 @@ section {
   text-align: justify;
 }
 
+/*adds a hover effect*/
 .page-banner a:hover {
   background: rgba(255, 166, 0, 0.514);
 }
 
-.contact {
+/*configures every content section (adds padding) */
+.content {
   display: block;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
+/*makes the section header standout. Applies background color and changes to font*/
 .section-header {
   background-color: rgb(180, 180, 180);
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 200%;
   text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  font-weight: 100;
+  width: 100%;
+  height: relative;
+}
+
+/*general text configuration*/
+p,
+li {
+  font-size: large;
+  font-family: cursive;
 }

@@ -8,7 +8,7 @@
   <body>
     <header>
       <section id="header">
-        <div id="page-banner" class="page-banner sticky">
+        <div id="page-banner" class="banner">
           <h1 id="title">Dev Patel's Curriculum Vitae</h1>
           <nav>
             <a href="#contact">Contact</a>
@@ -21,7 +21,7 @@
       </section>
     </header>
 
-    <section id="contact">
+    <section class="content">
       <div class="contact">
         <div id="contact-information">
           <h2 id="contact-header" class="section-header">
@@ -41,117 +41,127 @@
         <div id="phone-addy">
           <p>
             <strong>Phone</strong>
-            <br />+1 (781) 281-5373400 <br /><strong>Address</strong> <br />400
-            Willard Dr Apt A, <br />Blacksburg Virginia, 24060
+            <br />+1 (781) 281-5373 <br />
+            <br />
+            <strong>Address</strong> <br />400 Willard Dr Apt A,
+            <br />Blacksburg Virginia, 24060
           </p>
         </div>
       </div>
     </section>
-    <section id="education">
-      <div>
-        <h2 id="education-header" class="section-header">Education</h2>
-      </div>
-      <div id="education-list">
-        <ul class="list">
-          <li>
-            <strong
-              >Virginia Polytechnic Institution and State University,</strong
-            >
-            December 2022
-          </li>
-          <ul>
-            <li>Bachelor of Science in Computer Science, Math Minor</li>
-            <li>GPA- 3.719</li>
+    <section class="content">
+      <div id="education">
+        <div>
+          <h2 id="education-header" class="section-header">Education</h2>
+        </div>
+        <div id="education-list">
+          <ul class="list">
+            <li>
+              <strong
+                >Virginia Polytechnic Institution and State University,</strong
+              >
+              December 2022
+            </li>
+            <ul>
+              <li>Bachelor of Science in Computer Science, Math Minor</li>
+              <li><strong>GPA - 3.719</strong></li>
+            </ul>
           </ul>
-        </ul>
+        </div>
       </div>
     </section>
 
-    <section id="experience">
-      <div>
-        <h2 id="experience-header" class="section-header">Work Experience</h2>
-      </div>
-      <div id="experience-list">
-        <ul class="list">
-          <li>
-            <strong>Research Lab Technician,</strong> June 2021 - August 2021
-          </li>
-          <ul>
+    <section class="content">
+      <div id="experience">
+        <div>
+          <h2 id="experience-header" class="section-header">Work Experience</h2>
+        </div>
+        <div id="experience-list">
+          <ul class="list">
             <li>
-              Created a
-              <a href="https://borneobats.azurewebsites.net/"
-                >Bat Call Database</a
-              >
-              on <strong>Azure SQL</strong> and hosted it on the
-              <strong>Azure SQL server.</strong>
+              <strong>Research Lab Technician,</strong> June 2021 - August 2021
             </li>
-            <li>
-              Programmed the website with <strong>Flask</strong> framework to
-              exhibit the content of the database using a custom query
-              algorithm.
-            </li>
-            <li>
-              Worked with <strong>HTML, JS, </strong>and
-              <strong>CSS,</strong> developed Flask APIs for the website.
-            </li>
-            <li>
-              Worked on <strong>Azure App Services</strong> and
-              <strong>Azure DevOps</strong> to host and deploy the website.
-            </li>
-          </ul>
-        </ul>
-      </div>
-    </section>
-    <section id="projects">
-      <div>
-        <h2 id="projects-header" class="section-header">Personal Projects</h2>
-      </div>
-      <div id="projects-list">
-        <ul class="list">
-          <li>
-            <strong>Student Loan Dashboard</strong>
             <ul>
               <li>
-                Developed dashboard for students to manage loans, estimate
-                savings, and visualize LIBOR impact on loans
+                Created a
+                <a href="https://borneobats.azurewebsites.net/"
+                  >Bat Call Database</a
+                >
+                on <strong>Azure SQL</strong> and hosted it on the
+                <strong>Azure SQL server.</strong>
               </li>
               <li>
-                Implemented math and statistics for loan calculations in backend
-                and created easy to understand visualizations
+                Programmed the website with <strong>Flask</strong> framework to
+                exhibit the content of the database using a custom query
+                algorithm.
               </li>
               <li>
-                Integrated HTML and CSS pages with Flask framework; designed the
-                UI and <strong>web scrapped</strong> LIBOR rates.
+                Worked with <strong>HTML, JS, </strong>and
+                <strong>CSS,</strong> developed Flask APIs for the website.
+              </li>
+              <li>
+                Worked on <strong>Azure App Services</strong> and
+                <strong>Azure DevOps</strong> to host and deploy the website.
               </li>
             </ul>
-          </li>
-        </ul>
+          </ul>
+        </div>
       </div>
     </section>
-    <section id="skills">
-      <div>
-        <h2 id="skills-header" class="section-header">
-          Skills and Qualifications
-        </h2>
+    <section class="content">
+      <div id="projects">
+        <div>
+          <h2 id="projects-header" class="section-header">Personal Projects</h2>
+        </div>
+        <div id="projects-list">
+          <ul class="list">
+            <li>
+              <strong>Student Loan Dashboard</strong>
+              <ul>
+                <li>
+                  Developed dashboard for students to manage loans, estimate
+                  savings, and visualize LIBOR impact on loans
+                </li>
+                <li>
+                  Implemented math and statistics for loan calculations in
+                  backend and created easy to understand visualizations
+                </li>
+                <li>
+                  Integrated HTML and CSS pages with Flask framework; designed
+                  the UI and <strong>web scrapped</strong> LIBOR rates.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div id="coding-skills">
-        <h3>Programming Languages</h3>
-        <ul class="skill-list">
-          <li>Java</li>
-          <li>Python</li>
-          <li>C++</li>
-          <li>C</li>
-          <li>MATLAB</li>
-          <li>Javascript</li>
-        </ul>
-      </div>
-      <div id="tech-skills">
-        <h3>Other Technical Skills</h3>
-        <ul class="skill-list">
-          <li>Object Oriented Programming</li>
-          <li>Full-stack web development</li>
-          <li>Cloud Computing</li>
-        </ul>
+    </section>
+    <section class="content">
+      <div id="skills">
+        <div>
+          <h2 id="skills-header" class="section-header">
+            Skills and Qualifications
+          </h2>
+        </div>
+        <div id="coding-skills">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>MATLAB</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+        <div id="tech-skills">
+          <h3>Other Technical Skills</h3>
+          <ul class="skill-list">
+            <li>Object Oriented Programming</li>
+            <li>Full-stack web development</li>
+            <li>Cloud Computing</li>
+          </ul>
+        </div>
       </div>
     </section>
   </body>
