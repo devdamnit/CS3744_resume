@@ -37,7 +37,7 @@ section {
 }
 
 /*configures anchor tag in page banner to make it different than normal text*/
-.page-banner a {
+.banner a {
   display: inline-block;
   color: white;
   padding: 14px 16px;
